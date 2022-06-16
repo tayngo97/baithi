@@ -1,0 +1,142 @@
+2022-06-08 17:56:44.095  INFO 5940 --- [main] com.stdio.esm.EsmApplication             : Starting EsmApplication using Java 11.0.15 on DESKTOP-1GG0LVP with PID 5940 (D:\ESM\esm\EsmService\target\classes started by ADMIN in D:\ESM\esm\EsmService)
+2022-06-08 17:56:44.177  INFO 5940 --- [main] com.stdio.esm.EsmApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-06-08 17:56:45.664  INFO 5940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-08 17:56:45.733  INFO 5940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 4 JPA repository interfaces.
+2022-06-08 17:56:46.275  INFO 5940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-08 17:56:46.296  INFO 5940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-08 17:56:46.296  INFO 5940 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-08 17:56:46.429  INFO 5940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-08 17:56:46.430  INFO 5940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2201 ms
+2022-06-08 17:56:46.553  INFO 5940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-08 17:56:46.861  INFO 5940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-08 17:56:46.898  INFO 5940 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-08 17:56:46.951  INFO 5940 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-08 17:56:47.107  INFO 5940 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-08 17:56:47.220  INFO 5940 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-08 17:56:47.756  INFO 5940 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-08 17:56:47.764  INFO 5940 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-08 17:56:48.160  WARN 5940 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-08 17:56:48.662  INFO 5940 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1be3e952, org.springframework.security.web.context.SecurityContextPersistenceFilter@37a36194, org.springframework.security.web.header.HeaderWriterFilter@5cef5fc9, org.springframework.security.web.authentication.logout.LogoutFilter@1a3a6216, com.stdio.esm.config.filter.JwtAuthenticationFilter@6d6d81c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6abaa14b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4cc28ad0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@818a514, org.springframework.security.web.session.SessionManagementFilter@7cf166db, org.springframework.security.web.access.ExceptionTranslationFilter@3829306d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e70861]
+2022-06-08 17:56:48.997  INFO 5940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-08 17:56:49.258  INFO 5940 --- [main] com.stdio.esm.EsmApplication             : Started EsmApplication in 5.727 seconds (JVM running for 6.847)
+2022-06-08 17:56:49.261  INFO 5940 --- [main] com.stdio.esm.EsmApplication             : Esm app starts running
+2022-06-08 17:58:02.845  INFO 5940 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-08 17:58:02.847  INFO 5940 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-08 17:58:02.848  INFO 5940 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-08 17:58:02.885  WARN 5940 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'password' for method parameter type String is not present]
+2022-06-08 17:58:05.210  WARN 5940 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'password' for method parameter type String is not present]
+2022-06-08 17:58:39.109  INFO 5940 --- [http-nio-8080-exec-7] com.stdio.esm.service.SecurityService    : anhtayd27111997@gmail.com login into app
+2022-06-08 17:58:39.446  INFO 5940 --- [http-nio-8080-exec-7] com.stdio.esm.service.SecurityService    : anhtayd27111997@gmail.com logged in successfully
+2022-06-08 17:58:52.391  INFO 5940 --- [http-nio-8080-exec-8] com.stdio.esm.service.AccountService     : Change password
+2022-06-08 17:58:55.699  INFO 5940 --- [http-nio-8080-exec-10] com.stdio.esm.service.AccountService     : Change password
+2022-06-08 17:59:02.989  INFO 5940 --- [http-nio-8080-exec-1] com.stdio.esm.service.AccountService     : Change password
+2022-06-08 17:59:03.081  INFO 5940 --- [http-nio-8080-exec-1] com.stdio.esm.service.AccountService     : change password successfully
+2022-06-08 18:51:41.674  WARN 5940 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58870] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-06-08 18:51:41.877  WARN 5940 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58870] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-06-08 18:51:42.104  WARN 5940 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58870] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-06-08 18:51:42.293  WARN 5940 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58870] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-06-08 18:51:43.263  WARN 5940 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58870] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-06-08 18:51:43.413  WARN 5940 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58870] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-06-08 18:51:45.383  WARN 5940 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58870] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-06-08 18:51:45.580  WARN 5940 --- [RMI TCP Accept-0] sun.rmi.transport.tcp                    : RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=58870] throws
+
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at jdk.management.agent/sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:394) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:366) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-06-08 18:51:59.358  WARN 5940 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m12s359ms465µs).
+2022-06-08 22:32:08.596  INFO 1512 --- [main] com.stdio.esm.EsmApplication             : Starting EsmApplication using Java 11.0.15 on DESKTOP-1GG0LVP with PID 1512 (D:\ESM\esm\EsmService\target\classes started by ADMIN in D:\ESM\esm\EsmService)
+2022-06-08 22:32:08.610  INFO 1512 --- [main] com.stdio.esm.EsmApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-06-08 22:32:09.714  INFO 1512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-08 22:32:09.778  INFO 1512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+2022-06-08 22:32:10.254  INFO 1512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-08 22:32:10.262  INFO 1512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-08 22:32:10.262  INFO 1512 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-08 22:32:10.389  INFO 1512 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-08 22:32:10.389  INFO 1512 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1743 ms
+2022-06-08 22:32:10.499  INFO 1512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-08 22:32:10.818  INFO 1512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-08 22:32:10.857  INFO 1512 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-08 22:32:10.905  INFO 1512 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-08 22:32:11.060  INFO 1512 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-08 22:32:11.160  INFO 1512 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-08 22:32:11.654  INFO 1512 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-08 22:32:11.663  INFO 1512 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-08 22:32:12.017  WARN 1512 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-08 22:32:12.457  INFO 1512 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7004cd44, org.springframework.security.web.context.SecurityContextPersistenceFilter@6abaa14b, org.springframework.security.web.header.HeaderWriterFilter@7b6b8cea, org.springframework.security.web.authentication.logout.LogoutFilter@1de398c3, com.stdio.esm.config.filter.JwtAuthenticationFilter@36f80ceb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f3565c0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28f081ad, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@495e1ad1, org.springframework.security.web.session.SessionManagementFilter@37a36194, org.springframework.security.web.access.ExceptionTranslationFilter@1d1da00b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b5d6f9c]
+2022-06-08 22:32:12.872  INFO 1512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-08 22:32:13.120  INFO 1512 --- [main] com.stdio.esm.EsmApplication             : Started EsmApplication in 5.105 seconds (JVM running for 6.215)
+2022-06-08 22:32:13.123  INFO 1512 --- [main] com.stdio.esm.EsmApplication             : Esm app starts running
+2022-06-08 22:32:47.942  INFO 9932 --- [main] com.stdio.esm.EsmApplication             : Starting EsmApplication using Java 11.0.15 on DESKTOP-1GG0LVP with PID 9932 (D:\ESM\esm\EsmService\target\classes started by ADMIN in D:\ESM\esm\EsmService)
+2022-06-08 22:32:47.946  INFO 9932 --- [main] com.stdio.esm.EsmApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-06-08 22:32:48.890  INFO 9932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-08 22:32:48.948  INFO 9932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 4 JPA repository interfaces.
+2022-06-08 22:32:49.473  INFO 9932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-08 22:32:49.480  INFO 9932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-08 22:32:49.480  INFO 9932 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-06-08 22:32:49.597  INFO 9932 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-08 22:32:49.597  INFO 9932 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1593 ms
+2022-06-08 22:32:49.715  INFO 9932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-08 22:32:49.961  INFO 9932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-08 22:32:49.998  INFO 9932 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-08 22:32:50.030  INFO 9932 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-06-08 22:32:50.137  INFO 9932 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-08 22:32:50.233  INFO 9932 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-08 22:32:50.773  INFO 9932 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-08 22:32:50.786  INFO 9932 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-08 22:32:51.186  WARN 9932 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-08 22:32:51.614  INFO 9932 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@eef6e, org.springframework.security.web.context.SecurityContextPersistenceFilter@64a8851a, org.springframework.security.web.header.HeaderWriterFilter@6d5fea64, org.springframework.security.web.authentication.logout.LogoutFilter@377d55, com.stdio.esm.config.filter.JwtAuthenticationFilter@3e3bf77b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@687d31a9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ffaa711, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56b66cc6, org.springframework.security.web.session.SessionManagementFilter@3b60be3, org.springframework.security.web.access.ExceptionTranslationFilter@b867869, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2bf2523f]
+2022-06-08 22:32:51.941  INFO 9932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-08 22:32:52.207  INFO 9932 --- [main] com.stdio.esm.EsmApplication             : Started EsmApplication in 4.687 seconds (JVM running for 5.544)
+2022-06-08 22:32:52.210  INFO 9932 --- [main] com.stdio.esm.EsmApplication             : Esm app starts running
